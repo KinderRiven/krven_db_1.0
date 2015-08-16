@@ -1,0 +1,90 @@
+﻿Build started 2015/8/16 23:29:17.
+     1>Project "F:\KinderRiven\DataBase\QT_Test\QT_Test.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (QT_Test.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>CustomBuild:
+         Moc'ing MainWindow.h...
+         Qt: Untested Windows version 10.0 detected!
+         Uic'ing MainWindow.ui...
+         Moc'ing HelpWindow.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing tableview.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing onetableview.h...
+         Qt: Untested Windows version 10.0 detected!
+         Moc'ing UserWindow.h...
+         Qt: Untested Windows version 10.0 detected!
+         Rcc'ing qt_test.qrc...
+         Qt: Untested Windows version 10.0 detected!
+     1>RCC : warning : No resources in 'F:\KinderRiven\DataBase\QT_Test\qt_test.qrc'.
+         
+         Uic'ing UserWindow.ui...
+         Uic'ing HelpWindow.ui...
+         Uic'ing tableview.ui...
+         Uic'ing onetableview.ui...
+       ClCompile:
+         F:\VS2013NEW\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtNetwork /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtSql /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt dataBase\condition.cpp dataBase\help.cpp dataBase\kIndex.cpp dataBase\kLine.cpp dataBase\kTable.cpp dataBase\kView.cpp dataBase\readSQL.cpp dataBase\Save.cpp dataBase\userDatabase.cpp GeneratedFiles\Debug\moc_HelpWindow.cpp GeneratedFiles\Debug\moc_MainWindow.cpp GeneratedFiles\Debug\moc_onetableview.cpp GeneratedFiles\Debug\moc_tableview.cpp GeneratedFiles\Debug\moc_UserWindow.cpp headClass.cpp HelpWindow.cpp main.cpp MainDataBase.cpp MusicData.cpp MainWindow.cpp onetableview.cpp tableview.cpp Ui_Test.cpp UserData.cpp userwindows.cpp WarningWindows.cpp
+         condition.cpp
+         help.cpp
+         kIndex.cpp
+         kLine.cpp
+         kTable.cpp
+         kView.cpp
+         readSQL.cpp
+         Save.cpp
+         userDatabase.cpp
+         moc_HelpWindow.cpp
+         moc_MainWindow.cpp
+         moc_onetableview.cpp
+         moc_tableview.cpp
+         moc_UserWindow.cpp
+         headClass.cpp
+         HelpWindow.cpp
+         main.cpp
+         MainDataBase.cpp
+         MusicData.cpp
+         MainWindow.cpp
+         Generating Code...
+         Compiling...
+         onetableview.cpp
+         tableview.cpp
+         Ui_Test.cpp
+         UserData.cpp
+         userwindows.cpp
+         WarningWindows.cpp
+         Generating Code...
+         F:\VS2013NEW\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Debug /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtNetwork /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtSql /Zi /nologo /W1 /WX- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt GeneratedFiles\qrc_qt_test.cpp
+         qrc_qt_test.cpp
+       Link:
+         F:\VS2013NEW\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KinderRiven\DataBase\x64\Debug\\KDataBase.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib Qt5MultimediaWidgetsd.lib Qt5Multimediad.lib Qt5Networkd.lib Qt5Sqld.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\KinderRiven\DataBase\x64\Debug\KDataBase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KinderRiven\DataBase\x64\Debug\KDataBase.lib" /MACHINE:X64 x64\Debug\condition.obj
+         x64\Debug\help.obj
+         x64\Debug\kIndex.obj
+         x64\Debug\kLine.obj
+         x64\Debug\kTable.obj
+         x64\Debug\kView.obj
+         x64\Debug\readSQL.obj
+         x64\Debug\Save.obj
+         x64\Debug\userDatabase.obj
+         x64\Debug\moc_HelpWindow.obj
+         x64\Debug\moc_MainWindow.obj
+         x64\Debug\moc_onetableview.obj
+         x64\Debug\moc_tableview.obj
+         x64\Debug\moc_UserWindow.obj
+         x64\Debug\qrc_qt_test.obj
+         x64\Debug\headClass.obj
+         x64\Debug\HelpWindow.obj
+         x64\Debug\main.obj
+         x64\Debug\MainDataBase.obj
+         x64\Debug\MusicData.obj
+         x64\Debug\MainWindow.obj
+         x64\Debug\onetableview.obj
+         x64\Debug\tableview.obj
+         x64\Debug\Ui_Test.obj
+         x64\Debug\UserData.obj
+         x64\Debug\userwindows.obj
+         x64\Debug\WarningWindows.obj
+         QT_Test.vcxproj -> F:\KinderRiven\DataBase\x64\Debug\KDataBase.exe
+     1>Done Building Project "F:\KinderRiven\DataBase\QT_Test\QT_Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:57.40

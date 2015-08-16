@@ -1,0 +1,121 @@
+# depslib dependency file v1.0
+1437781032 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\ktable.cpp
+	"kTable.h"
+
+1437777710 f:\qt\database\qt_test\command\kdatabase\kdatabase\ktable.h
+	<set>
+	<string>
+	<vector>
+	<cstdio>
+	<cstring>
+	<iomanip>
+	<iostream>
+	<algorithm>
+	"Condition.h"
+	"kLine.h"
+
+1437742423 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\main.cpp
+	"userDatabase.h"
+	"Help.h"
+	"Help.cpp"
+	"kLine.h"
+	<fstream>
+	<string>
+	<cstdio>
+
+1437780374 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\readsql.cpp
+	"readSQL.h"
+	<string.h>
+
+1437378250 f:\qt\database\qt_test\command\kdatabase\kdatabase\readsql.h
+	<cstdio>
+	<vector>
+	<string>
+	<iostream>
+
+1437370707 f:\qt\database\qt_test\command\kdatabase\kdatabase\userdata.h
+	"help.h"
+	"Save.h"
+	"kTable.h"
+	"readSQL.h"
+	"condition.h"
+	<iomanip>
+	<fstream>
+
+1437370799 f:\qt\database\qt_test\command\kdatabase\kdatabase\userdata.cpp
+	"userData.h"
+	"Save.cpp"
+
+1436596659 f:\qt\database\qt_test\command\kdatabase\kdatabase\ktable.cpp
+	"kTable.h"
+
+1437739501 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\condition.cpp
+	"condition.h"
+
+1437715407 f:\qt\database\qt_test\command\kdatabase\kdatabase\condition.h
+	<vector>
+	<string>
+
+1437147172 f:\qt\database\qt_test\command\kdatabase\kdatabase\help.h
+	<cstdio>
+	<iostream>
+
+1437739522 f:\qt\database\qt_test\command\kdatabase\kdatabase\help.cpp
+	"Help.h"
+
+1437781250 f:\qt\database\qt_test\command\kdatabase\kdatabase\save.h
+	"kTable.h"
+	"kView.h"
+	"kIndex.h"
+	<fstream>
+	<iomanip>
+	<cstring>
+
+1437782910 f:\qt\database\qt_test\command\kdatabase\kdatabase\save.cpp
+	"Save.h"
+
+1437783120 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\userdatabase.cpp
+	"userDatabase.h"
+	"Save.cpp"
+	"kView.cpp"
+
+1437782649 f:\qt\database\qt_test\command\kdatabase\kdatabase\userdatabase.h
+	"help.h"
+	"Save.h"
+	"kView.h"
+	"kTable.h"
+	"readSQL.h"
+	"condition.h"
+	"kLine.h"
+	<iomanip>
+	<fstream>
+	"kView.h"
+	"kIndex.h"
+
+1437378785 f:\qt\database\qt_test\command\kdatabase\kdatabase\userdatabase.cpp
+	"userDatabase.h"
+
+1437482005 f:\qt\database\qt_test\command\kdatabase\kdatabase\kview.h
+	<string>
+	"condition.h"
+
+1437482002 f:\qt\database\qt_test\command\kdatabase\kdatabase\kview.cpp
+	"kView.h"
+
+1437779490 f:\qt\database\qt_test\command\kdatabase\kdatabase\kline.h
+	<iostream>
+	<string>
+
+1437779513 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\kline.cpp
+	"kLine.h"
+
+1437779732 f:\qt\database\qt_test\command\kdatabase\kdatabase\kindex.h
+	<vector>
+	<string>
+	"kLine.h"
+	<iostream>
+	<iomanip>
+
+1437780302 source:f:\qt\database\qt_test\command\kdatabase\kdatabase\kindex.cpp
+	"kIndex.h"
+

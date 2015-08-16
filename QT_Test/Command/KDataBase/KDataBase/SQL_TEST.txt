@@ -1,0 +1,92 @@
+CREATE TABLE student
+(
+	id char(20) PRIMARY KEY,
+	name char(20) NOT NULL,
+	class char(35),
+	age int,
+);
+
+//INSERT 插入操作
+
+INSERT INTO student
+VALUES('1001','Han Shukai','class_one',20);
+
+INSERT INTO student
+VALUES('1002','Gong Chen','class_one',20);
+
+INSERT INTO student
+VALUES('1003','Liu Fuxiang','class_one',22);
+
+INSERT INTO student
+VALUES('1004','Liu Chang','class_one',19);
+
+INSERT INTO student
+VALUES('1005','Xiaohua','class_two',23);
+
+INSERT INTO student(id,name)
+VALUES('1006','Xiao Ming');
+
+//错误演示
+INSERT INTO student
+VALUES('1001','Han Shukai','class_one',20);
+
+INSERT INTO student(name)
+VALUES（‘Han Shukai');
+
+INSERT INTO student
+VALUES('1001','Han Shukai','class_one');
+
+
+//SELECT 查询操作
+SELECT * FROM student;
+
+SELECT name from student where id = '1002';
+
+SELECT name FROM student;
+
+SELECT id,name FROM student WHERE class = 'class_one'
+ORDER BY id DESC;
+
+SELECT name FROM student ORDER BY name ASC;
+
+
+//错误演示
+SELECT grade FROM STUDENT;
+
+
+//UPDAT 更新操作
+UPDATE student
+SET name = 'K'
+WHERE name = 'Han Shukai;
+
+UPDATE student
+SET id = 0000
+WHERE class = 'class_one';
+
+//错误演示
+UPDATE student
+SET name = 'K'
+WHERE sname = 'Han Shukai;
+
+
+//DELECT DATA 删除操作
+DELETE FROM student
+WHERE id = 0000;
+
+
+//VIEW
+CREATE VIEW v_student
+AS select name,id from student;
+
+
+CREATE VIEW v2_student
+AS select name,id from student where id = 1005;
+
+
+//INDEX
+
+CREATE UNIQUE INDEX index_id
+ON student(id asc,name desc);
+
+//GRANT
+GRANT ALL PRIVILEGES ON student TO kinderriven;

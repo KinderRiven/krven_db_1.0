@@ -1,0 +1,14 @@
+﻿生成启动时间为 2015/6/29 11:19:51。
+     1>项目“F:\QT\QTproject\QT_Test\QT_Test\QT_Test.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qt_test.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qt_test.cpp, GeneratedFiles\Release\moc_qt_test.cpp.
+     1>Link:
+         F:\Visual Studio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\QT\QTproject\QT_Test\Win32\Debug\\QT_Test.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\QT\QTproject\QT_Test\Win32\Debug\QT_Test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\QT\QTproject\QT_Test\Win32\Debug\QT_Test.lib" /MACHINE:X86 /SAFESEH Debug\moc_qt_test.obj
+         Debug\qrc_qt_test.obj
+         Debug\main.obj
+         Debug\qt_test.obj
+     1>Qt5Widgetsd.lib(Qt5Widgetsd.dll) : fatal error LNK1112: 模块计算机类型“x64”与目标计算机类型“X86”冲突
+     1>已完成生成项目“F:\QT\QTproject\QT_Test\QT_Test\QT_Test.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.31
