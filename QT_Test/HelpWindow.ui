@@ -431,9 +431,9 @@
   <widget class="QLabel" name="Author">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>490</x>
      <y>370</y>
-     <width>171</width>
+     <width>201</width>
      <height>51</height>
     </rect>
    </property>
@@ -446,7 +446,7 @@
     </font>
    </property>
    <property name="text">
-    <string>Han Shukai</string>
+    <string>Sun Chuanbo</string>
    </property>
   </widget>
   <widget class="QLabel" name="K">

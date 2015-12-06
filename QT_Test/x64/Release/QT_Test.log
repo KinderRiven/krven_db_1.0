@@ -1,0 +1,41 @@
+﻿Build started 2015/9/12 19:22:30.
+     1>Project "F:\KinderRiven\DataBase\QT_Test\QT_Test.vcxproj" on node 2 (Build target(s)).
+     1>CustomBuild:
+         Uic'ing HelpWindow.ui...
+       ClCompile:
+         F:\VS2013NEW\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IF:\QT\QT5.4.2\5.4\msvc2013_64\include /I.\GeneratedFiles\Release /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtCore /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtGui /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimediaWidgets /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtMultimedia /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtNetwork /IF:\QT\QT5.4.2\5.4\msvc2013_64\include\QtSql /nologo /W1 /WX- /O2 /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /D QT_MULTIMEDIAWIDGETS_LIB /D QT_MULTIMEDIA_LIB /D QT_NETWORK_LIB /D QT_SQL_LIB /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt HelpWindow.cpp
+         HelpWindow.cpp
+       Link:
+         F:\VS2013NEW\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"F:\KinderRiven\DataBase\x64\Release\\KDataBase.exe" /NOLOGO /LIBPATH:F:\QT\QT5.4.2\5.4\msvc2013_64\lib qtmain.lib Qt5Core.lib Qt5Gui.lib Qt5Widgets.lib Qt5MultimediaWidgets.lib Qt5Multimedia.lib Qt5Network.lib Qt5Sql.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"F:\KinderRiven\DataBase\x64\Release\KDataBase.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\KinderRiven\DataBase\x64\Release\KDataBase.lib" /MACHINE:X64 x64\Release\condition.obj
+         x64\Release\help.obj
+         x64\Release\kIndex.obj
+         x64\Release\kLine.obj
+         x64\Release\kTable.obj
+         x64\Release\kView.obj
+         x64\Release\readSQL.obj
+         x64\Release\Save.obj
+         x64\Release\userDatabase.obj
+         x64\Release\qrc_qt_test.obj
+         x64\Release\moc_HelpWindow.obj
+         x64\Release\moc_MainWindow.obj
+         x64\Release\moc_onetableview.obj
+         x64\Release\moc_tableview.obj
+         x64\Release\moc_UserWindow.obj
+         x64\Release\headClass.obj
+         x64\Release\HelpWindow.obj
+         x64\Release\main.obj
+         x64\Release\MainDataBase.obj
+         x64\Release\MusicData.obj
+         x64\Release\MainWindow.obj
+         x64\Release\onetableview.obj
+         x64\Release\tableview.obj
+         x64\Release\Ui_Test.obj
+         x64\Release\UserData.obj
+         x64\Release\userwindows.obj
+         x64\Release\WarningWindows.obj
+         QT_Test.vcxproj -> F:\KinderRiven\DataBase\x64\Release\KDataBase.exe
+     1>Done Building Project "F:\KinderRiven\DataBase\QT_Test\QT_Test.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.96

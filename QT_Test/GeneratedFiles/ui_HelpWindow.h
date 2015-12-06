@@ -105,7 +105,7 @@ public:
         HelpWindow->setPalette(palette);
         Author = new QLabel(HelpWindow);
         Author->setObjectName(QStringLiteral("Author"));
-        Author->setGeometry(QRect(530, 370, 171, 51));
+        Author->setGeometry(QRect(490, 370, 201, 51));
         QFont font;
         font.setFamily(QStringLiteral("SAO UI"));
         font.setPointSize(28);
@@ -181,7 +181,7 @@ public:
     void retranslateUi(QWidget *HelpWindow)
     {
         HelpWindow->setWindowTitle(QApplication::translate("HelpWindow", "Form", 0));
-        Author->setText(QApplication::translate("HelpWindow", "Han Shukai", 0));
+        Author->setText(QApplication::translate("HelpWindow", "Sun Chuanbo", 0));
         K->setText(QApplication::translate("HelpWindow", "KDataBase1.0.1", 0));
         Exit->setText(QString());
         K_2->setText(QApplication::translate("HelpWindow", "1.help data/table/view/[order] ", 0));
